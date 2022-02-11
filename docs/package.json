@@ -1,0 +1,22 @@
+{
+  "name": "dungeon-world-srd",
+  "version": "0.0.1",
+  "description": "Dungeon World SRD",
+  "main": "index.js",
+  "authors": {
+    "name": "Matt Smith",
+    "email": "matt@mattsmith.in"
+  },
+  "repository": "git@gitlab.com:asacolips-projects/dungeon-world-srd.git/dungeon-world-srd",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vuepress-plugin-child-toc": "^0.1.2"
+  }
+}
